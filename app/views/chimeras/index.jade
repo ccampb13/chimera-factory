@@ -1,0 +1,27 @@
+extends ../shared/template
+
+block content
+
+
+  #controls
+      a(href="/chimeras/new" class="button button-border-highlight button-circle") New Chimera
+    span
+      a(src="/img/logo.png")
+
+
+  #chimeras
+    each chimera in chimeras
+      .chimera
+        .name name: #{chimera.name}
+        .gender gender: #{chimera.gender}
+        .age age: #{chimera.age}
+        //- a(href="/chimera/#{chimera._id}")= chimera.name
+        .head
+          img(src='/img/#{chimera.head}')
+        .body
+          img(src='/img/#{chimera.body}')
+        .tail
+          img(src='/img/#{chimera.tail}')
+        .delete
+          form(action='/chimeras/#{chimera._id}/delete', method='POST')
+            button.button-border Delete

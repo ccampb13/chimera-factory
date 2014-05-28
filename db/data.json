@@ -1,0 +1,7 @@
+{"name": "hercules", "age": 7, "gender": "male", "head": "lion_head.png", "body": "horse_body.png", "tail": "horse_tail.png"}
+{"name": "brutus", "age": 8, "gender": "male", "head": "horse_head.png", "body": "lion_body.png", "tail": "lion_tail.png"}
+{"name": "cesar", "age": 9, "gender": "male", "head": "lion_head.png", "body": "lion_body.png", "tail": "horse_tail.png"}
+{"name": "achilles", "age": 4, "gender": "male", "head": "horse_head.png", "body": "lion_body.png", "tail": "horse_tail.png"}
+{"name": "simba", "age": 3, "gender": "female", "head": "lion_head.png", "body": "horse_body.png", "tail": "lion_tail.png"}
+{"name": "seabiscuit", "age": 10, "gender": "female", "head": "lion_head.png", "body": "horse_body.png", "tail": "horse_tail.png"}
+{"name": "george", "age": 4, "gender": "male", "head": "horse_head.png", "body": "lion_body.png", "tail": "lion_tail.png"}

@@ -1,0 +1,24 @@
+extends ../shared/template
+
+block content
+
+    .controls
+     form(method='POST', action='/chimeras')
+       input(name='name', type='text', placeholder='name')
+       input(name='age', type='text', placeholder='age')
+       select(name='gender')
+         option Male
+         option Female
+       select(name='head')
+         option Head
+         option Lion
+         option Horse
+       select(name='body')
+         option Body
+         option Lion
+         option Horse
+       select(name='tail')
+         option Tail
+         option Lion
+         option Horse
+       button.button-border Create

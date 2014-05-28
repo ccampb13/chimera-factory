@@ -5,9 +5,28 @@ html
     title= title
     link(href='/css/normalize.css', rel='stylesheet')
     link(href='/css/buttons.css', rel='stylesheet')
+    link(href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css" rel="stylesheet")
     link(href='/less/app.css', rel='stylesheet')
   body
+    header
+      h1 Chimera Factory
+      nav
+        .container
+          .pull-left
+            span
+              a(href='/' class="button button-border") Home
+            span
+              a(href='/about' class="button button-border") About
+          .pull-right
+            span
+              a(href='/chimeras/' class="button button-border") Chimeras
+            
+
     block content
+
+
+    footer
+
 
     script(src='/js/vendor/jquery-2.1.1.js')
     script(src='/js/vendor/lodash-2.4.1.js')
